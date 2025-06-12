@@ -1,7 +1,7 @@
 import java.util.*;
 
 // To print the fibonacci series
-public class Solutions {
+public class Fibonacci {
    public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);
        int n = sc.nextInt();
