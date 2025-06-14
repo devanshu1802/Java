@@ -13,15 +13,22 @@
 
 import java.util.*;
 
-class class_1{
+class Class_1{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
 
         int sum = a+b;
-
         System.out.println("The sum of the numbers is sum "+sum);
+        
+        int[] marks = new int[3];               // Declaration of an array
+        marks[0]=98;
+        marks[1]=95;
+        marks[2]=99;
+
+        System.out.println(marks[0]);
+
     }
 }
  
