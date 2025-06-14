@@ -3,6 +3,8 @@ import java.util.*;
 // To print the fibonacci series
 public class Fibonacci {
    public static void main(String args[]) {
+      @SuppressWarnings("resource")
+
        Scanner sc = new Scanner(System.in);
        int n = sc.nextInt();
       
