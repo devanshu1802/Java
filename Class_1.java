@@ -12,6 +12,7 @@
 // }
 
 import java.util.*;
+@SuppressWarnings("resource")
 
 class Class_1{
     public static void main(String args[]){

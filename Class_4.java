@@ -1,5 +1,5 @@
 import java.util.*;
-
+@SuppressWarnings("resource")
 // Advance Patterns
 public class Class_4 {
     public static void main(String arg[]){

@@ -1,4 +1,6 @@
 import java.util.*;
+@SuppressWarnings("resource")
+
 // Shape Patterns
 public class Class_2 {
     public static void main(String args[]){

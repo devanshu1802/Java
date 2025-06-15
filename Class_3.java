@@ -1,4 +1,5 @@
 import java.util.*;
+@SuppressWarnings("resource")
 // Patterns related to numbers
 public class Class_3 {
     public static void main(String arg[]){
