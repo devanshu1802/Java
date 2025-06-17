@@ -33,6 +33,19 @@ public class Recursion{
         System.out.println(c);
         fibonacci(b, c, n-1);
     }
+
+// To find the Power of a number
+
+    public static int caclPower(int x, int n){
+        if(n==0){
+            return 1;
+        }
+        if(x==0){
+            return 0;
+        }
+        return x * caclPower(x, n-1);
+
+    }
     public static void main(String arg[]){
     // Natural Numbers
         printsum(1, 7, 0);
@@ -47,6 +60,10 @@ public class Recursion{
         System.out.println(b);
         int n=7;
         fibonacci(a, b, n-2);
+
+    // Power
+        int ans= caclPower(2, 5);
+        System.out.println(ans);
 
 
     }
